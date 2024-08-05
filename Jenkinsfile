@@ -8,17 +8,5 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/SalexSTP/JenkinsSeleniumIDEDemoRepo'
             }
         }
-        stage("Set up .Net Core") {
-            // install dot net
-        }
-        stage("Restore dependencies") {
-            // install dependencies
-        }
-        stage("Build") {
-            // build
-        }
-        stage("Run tests") {
-            // run tests
-        }
     }
 }
